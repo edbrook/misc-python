@@ -78,9 +78,7 @@ class Quicksort:
 
 if __name__ == '__main__':
     from random import randrange
-    # Quicksort.quicksort([randrange(100) for i in range(20)])
-    # Quicksort.quicksort(list(map(int,'88 5 78 43 42 87 73 50 38 28 73 13 57 18 51 58 15 69 60 89'.split())))
-    # Quicksort.quicksort(list(map(int,'45 93 15 90 66 75 51 63 20 55 17 86 2 84 49 8 7 4 46 33'.split())))
-    array = [42, 11, 57, 13, 0, 26, 84, 63, 59, 82, 91, 20]
+    array = [randrange(100) for i in range(15)]
+    print(array)
     Quicksort.quicksort(array)
-    # print(array)
+    print(array)
