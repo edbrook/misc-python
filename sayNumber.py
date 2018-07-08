@@ -20,7 +20,7 @@ def say(num):
     o = 0
     last_triple = 0
     while num > 0:
-        str = "";
+        str = ""
         n = num % 1000
         h = n // 100
         t = n // 10 % 10
